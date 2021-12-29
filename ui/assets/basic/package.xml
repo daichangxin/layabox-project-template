@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="lknomhc9">
+  <resources>
+    <component id="u1ap77" name="alertUI.xml" path="/Panel/Alert/" exported="true"/>
+    <component id="pil97e" name="ToastItem.xml" path="/Toast/" exported="true"/>
+    <image id="pil97f" name="tushi_kuang.png" path="/Toast/" scale="" scale9grid="129,31,219,50"/>
+    <component id="8iub7g" name="loginUI.xml" path="/Panel/测试登录/" exported="true"/>
+    <component id="8iub7h" name="btn_login.xml" path="/Panel/测试登录/"/>
+    <component id="l71yfl" name="UI_loading.xml" path="/Panel/加载/" exported="true"/>
+    <image id="z34rhb" name="loading.png" path="/Panel/加载/"/>
+    <component id="h84bhn" name="UI_notice.xml" path="/Panel/公告/" exported="true"/>
+    <component id="h84bho" name="dele_noticeContent.xml" path="/Panel/公告/"/>
+    <image id="h84bhp" name="喇叭底.png" path="/Panel/公告/" scale="9grid" scale9grid="136,15,272,30"/>
+    <component id="h84bhq" name="CircleIcon.xml" path="/Panel/公告/"/>
+    <image id="iaq4ij" name="jd-0.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4ik" name="jd-1.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4il" name="jd-2.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4im" name="jd-3.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4in" name="jd-4.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4io" name="jd-5.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4ip" name="jd-6.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4iq" name="jd-7.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4ir" name="jd-8.png" path="/font/brown_italic_num/"/>
+    <image id="iaq4is" name="jd-9.png" path="/font/brown_italic_num/"/>
+    <font id="iaq4it" name="brown_italic_num.fnt" path="/font/" exported="true"/>
+    <image id="wzy4ph" name="确 定.png" path="/Panel/Alert/"/>
+    <image id="wzy4pi" name="取消-1.png" path="/Panel/Alert/"/>
+    <image id="dttlv1" name="jd-.png" path="/font/brown_italic_num/"/>
+    <image id="izwsyz" name="tc-007.png" path="/Panel/buttons/"/>
+    <image id="izwsz0" name="tc-008.png" path="/Panel/buttons/"/>
+    <component id="izwsz1" name="btn_yellow.xml" path="/Panel/buttons/"/>
+    <component id="izwsz2" name="btn_red.xml" path="/Panel/buttons/"/>
+    <image id="ehmmz3" name="panel_innerBG.png" path="/Panel/Alert/" scale="9grid" scale9grid="53,61,38,521"/>
+  </resources>
+  <publish name="basic" genCode="true"/>
+</packageDescription>

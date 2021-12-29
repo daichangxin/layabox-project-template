@@ -1,2 +1,7 @@
 # layabox-project-template
-LayaBox游戏项目模板
+
+LayaBox 游戏项目模板
+
+TODO:
+
+-   微信小游戏打包

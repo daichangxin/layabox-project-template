@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="514,58">
+  <displayList>
+    <component id="n95_h2ig" name="message" src="h84bho" fileName="公告/chatMessageItem.xml" xy="0,0"/>
+  </displayList>
+  <transition name="t_show">
+    <item time="0" type="Alpha" target="n95_h2ig" tween="true" startValue="0" endValue="1" duration="8"/>
+    <item time="0" type="XY" target="n95_h2ig" tween="true" startValue="-,60" endValue="-,0" duration="8"/>
+  </transition>
+  <transition name="t_hide">
+    <item time="0" type="Alpha" target="n95_h2ig" value="1"/>
+    <item time="0" type="XY" target="n95_h2ig" tween="true" startValue="-,0" endValue="-,-59" duration="7"/>
+    <item time="2" type="Alpha" target="n95_h2ig" tween="true" startValue="1" endValue="0" duration="3"/>
+  </transition>
+</component>

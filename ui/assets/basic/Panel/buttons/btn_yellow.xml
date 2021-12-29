@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="241,71" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n0_izws" src="izwsyz" name="n0" xy="0,0">
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <loader id="n1_izws" name="icon" xy="0,0" size="241,71" align="center" vAlign="middle">
+      <relation target="" sidePair="width,height"/>
+    </loader>
+  </displayList>
+</component>

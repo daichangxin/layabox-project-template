@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="574,475" designImageOffsetX="-77" designImageOffsetY="-494">
+  <controller name="state" pages="0,确定取消,1,确定" selected="0"/>
+  <displayList>
+    <image id="n41_ehmm" name="n41" src="ehmmz3" fileName="Panel/Alert/panel_innerBG.png" xy="0,0" size="574,475"/>
+    <richtext id="n29_95e2" name="txt_content" xy="34,192" size="505,83" group="n40_fihj" fontSize="32" color="#994716" align="center" vAlign="middle" leading="33" ubb="true" autoSize="none" autoClearText="true" text="是否继续？"/>
+    <text id="n39_10qou" name="txt_title" xy="81,75" size="412,42" group="n40_fihj" fontSize="38" color="#994716" align="center" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="提示"/>
+    <group id="n40_fihj" name="n40" xy="34,75" size="505,200" advanced="true">
+      <gearDisplay controller="state" pages="0,1"/>
+    </group>
+    <component id="n26_95e2" name="btn_cancel" src="izwsz2" fileName="Panel/buttons/btn_red.xml" xy="35,329">
+      <gearDisplay controller="state" pages="0"/>
+      <Button icon="ui://lknomhc9wzy4pi"/>
+    </component>
+    <component id="n27_95e2" name="btn_ok" src="izwsz1" fileName="Panel/buttons/btn_yellow.xml" xy="298,329">
+      <gearDisplay controller="state" pages="0,1"/>
+      <gearXY controller="state" pages="0,1" values="298,329|166,334"/>
+      <Button icon="ui://lknomhc9wzy4ph"/>
+    </component>
+  </displayList>
+</component>

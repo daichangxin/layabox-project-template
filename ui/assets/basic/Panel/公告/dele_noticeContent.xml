@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="514,58">
+  <displayList>
+    <image id="n99_t3uu" name="n99" src="h84bhp" fileName="公告/喇叭底.png" xy="0,0" size="514,58"/>
+    <text id="n95_h2ig" name="txt_des" xy="61,7" size="430,44" fontSize="28" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="微笑的天微笑的天微笑的天"/>
+    <component id="n96_t3uu" name="icon" src="h84bhq" fileName="icon/CircleIcon.xml" xy="2,1" size="55,55"/>
+  </displayList>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="741,1039" designImage="ui://r37x5lau95e26" designImageOffsetX="-9" designImageOffsetY="-351">
+  <displayList>
+    <image id="n10_n1oj" name="n10" src="95e21" fileName="bg.png" xy="0,-128"/>
+    <image id="n16_n1oj" name="star1" src="95e2dm" fileName="images/star1.png" pkg="lknomhc9" xy="104,45" group="n19_n1oj" grayed="true"/>
+    <image id="n17_n1oj" name="star0" src="95e2dn" fileName="images/star0.png" pkg="lknomhc9" xy="284,1" group="n19_n1oj" grayed="true"/>
+    <image id="n18_n1oj" name="star2" src="95e2do" fileName="images/star2.png" pkg="lknomhc9" xy="492,43" group="n19_n1oj" grayed="true"/>
+    <group id="n19_n1oj" name="n19" xy="104,1" size="529,184" collapsed="true"/>
+    <image id="n20_n1oj" name="n20" src="95e22" fileName="btn/Oval.png" xy="150,178"/>
+    <image id="n11_n1oj" name="n11" src="95e23" fileName="caidai_hui.png" xy="68,154"/>
+    <text id="n3_lgv2" name="n3" xy="192,365" size="349,88" fontSize="60" color="#744602" align="center" autoSize="none" singleLine="true" text="闯关失败"/>
+    <richtext id="n4_lgv2" name="txt_detail0" xy="89,461" size="547,82" fontSize="40" color="#744602" align="center" vAlign="middle" leading="29" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="答对了[size=60][color=#b7120f]2[/color][/size]道题"/>
+    <component id="n7_lgv2" name="btn_cancel" src="lgv297" fileName="btn/btn下划线.xml" pkg="lknomhc9" xy="269,857" size="195,53">
+      <Button title="放弃复活" titleColor="#744602" titleFontSize="34"/>
+    </component>
+    <component id="n9_lgv2" name="btn_relive" src="n1ojbz" fileName="btn/btn黄色大.xml" pkg="lknomhc9" xy="146,732">
+      <Button title="复活" icon="ui://r37x5lau95e24"/>
+    </component>
+    <component id="n12_n1oj" name="btn_close" src="ip7hal" fileName="btn/btn关闭小.xml" pkg="lknomhc9" xy="636,121"/>
+    <text id="n13_n1oj" name="txt_guan" xy="227,250" size="290,74" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="第1关"/>
+    <image id="n14_n1oj" name="n14" src="95e25" fileName="feichangyihan.png" xy="235,161"/>
+    <richtext id="n21_wpbe" name="txt_detail1" xy="89,543" size="547,82" fontSize="40" color="#744602" align="center" vAlign="middle" leading="29" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="再答对1道题可过关"/>
+    <text id="n22_wpbe" name="n1" xy="89,613" size="547,82" fontSize="40" color="#744602" align="center" vAlign="middle" leading="29" ubb="true" autoSize="none" singleLine="true" text="复活可继续回答（不扣体力）"/>
+  </displayList>
+</component>

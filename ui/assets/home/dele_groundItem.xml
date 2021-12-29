@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,159" hitTest="n34_jzk2">
+  <controller name="state" pages="6,普通地块-未解锁,5,普通地块-已解锁-未升级,4,普通地块-已升级,7,黑土地-未租赁,8,黑土地-已租赁" selected="0"/>
+  <displayList>
+    <graph id="n34_jzk2" name="n34" xy="0,0" size="212,159" visible="false" type="eclipse" lineSize="0"/>
+    <loader id="n33_jzk2" name="icon" xy="0,0" size="212,159" url="ui://h0pxd7al10bim1n" align="center" vAlign="middle">
+      <gearIcon controller="state" pages="6,4,7,8" values="ui://h0pxd7al10bim1n|ui://h0pxd7al10bim1m|ui://h0pxd7aljzk2m1s|ui://h0pxd7al10bim1m" default="ui://h0pxd7al10bim1o"/>
+    </loader>
+  </displayList>
+</component>

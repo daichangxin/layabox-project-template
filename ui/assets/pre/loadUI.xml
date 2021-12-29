@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="561,58">
+  <displayList>
+    <image id="n2_c0ta" name="n2" src="c0tah" fileName="hz.png" xy="-14,-282"/>
+    <component id="n1_adgs" name="bar_jindu" src="adgs1" fileName="ProgressBar1.xml" xy="0,0">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

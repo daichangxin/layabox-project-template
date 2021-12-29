@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334" designImage="ui://h0pxd7alfihjm4i" designImageOffsetY="531">
+  <displayList>
+    <loader id="n41_tyyt" name="bg" xy="0,-298" size="750,1670" url="ui://h0pxd7alrru0m4n" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="n31_10bim" sidePair="bottom-bottom"/>
+    </loader>
+    <image id="n61_g19h" name="n61" src="g19hm4d" fileName="组 12.png" xy="99,347" group="n63_g19h"/>
+    <image id="n62_g19h" name="n62" src="g19hm4e" fileName="组 11.png" xy="388,326" group="n63_g19h"/>
+    <group id="n63_g19h" name="yun" xy="99,326" size="592,166" advanced="true">
+      <relation target="n31_10bim" sidePair="top-bottom"/>
+    </group>
+    <component id="n31_10bim" name="dele_ground" src="p59cm2t" fileName="dele_ground.xml" xy="0,-122">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="ani_helper"/>
+  <transition name="ani_yun" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="n61_g19h" tween="true" startValue="99,91" endValue="-106,91" duration="186" ease="Linear"/>
+    <item time="0" type="XY" target="n62_g19h" tween="true" startValue="388,70" endValue="-307,70" duration="372" ease="Linear"/>
+    <item time="248" type="XY" target="n61_g19h" tween="true" startValue="751,91" endValue="99,91" duration="201" ease="Linear"/>
+    <item time="432" type="XY" target="n62_g19h" tween="true" startValue="750,70" endValue="388,70" duration="135" ease="Linear"/>
+  </transition>
+</component>

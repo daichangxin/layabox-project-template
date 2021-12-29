@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,400">
+  <displayList>
+    <graph id="n0_ehmm" name="n0" xy="0,0" size="500,400" type="rect"/>
+    <text id="n1_ehmm" name="n1" xy="208,171" size="84,19" fontSize="12" text="bagPanelTest"/>
+  </displayList>
+</component>

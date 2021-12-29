@@ -1,0 +1,46 @@
+{
+  "name": "layabox-project-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf tsc_outputs && rm -rf outputs && rm -rf release",
+    "dev": "npm run clean && npm run tsc_build && cross-env PROJECT_BUILD_ENV=development webpack serve --config scripts/webpack.config.js & npm run tsc_build -- --w",
+    "tsc_build": "./node_modules/.bin/tsc",
+    "build": "npm run clean && npm run tsc_build && cross-env PROJECT_BUILD_ENV=production && webpack --config scripts/webpack.config.js",
+    "build-qa": "npm run build",
+    "build-prd": "npm run build",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "test": "echo 'done'"
+  },
+  "dependencies": {
+    "@inno/game-sdk": "^5.5.0",
+    "@pawgame/game-library": "^2.1.0",
+    "dayjs": "1.10.7",
+    "pako": "2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.5",
+    "@babel/plugin-proposal-class-properties": "7.16.5",
+    "@babel/plugin-transform-runtime": "7.16.5",
+    "@babel/polyfill": "7.12.1",
+    "@babel/preset-env": "7.16.5",
+    "@shm-open/eslint-config-bundle": "1.7.4",
+    "babel-loader": "8.2.3",
+    "core-js": "^3.20.1",
+    "cross-env": "7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "proxy-polyfill": "0.3.2",
+    "regenerator-runtime": "0.13.9",
+    "terser-webpack-plugin": "4.2.3",
+    "typescript": "4.5.4",
+    "webpack": "5.65.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "^4.7.1",
+    "whatwg-fetch": "3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.innotechx.com:shm/farm.51shihuimiao.com.git"
+  }
+}

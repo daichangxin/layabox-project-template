@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1560" opaque="false" designImage="ui://h0pxd7ale9tjm4c" designImageOffsetX="-41" designImageOffsetY="-190">
+  <displayList>
+    <graph id="n41_jpu9" name="bg" xy="0,0" size="750,1560" visible="false" type="rect" lineSize="0" fillColor="#cc000000"/>
+    <component id="n39_10bim" name="ground_1" src="jzk2m1q" fileName="dele_groundItem.xml" xy="275,1085" group="n42_jpu9"/>
+    <component id="n40_10bim" name="ground_2" src="jzk2m1q" fileName="dele_groundItem.xml" xy="155,1020" group="n42_jpu9"/>
+    <component id="n38_10bim" name="ground_3" src="jzk2m1q" fileName="dele_groundItem.xml" xy="34,952" group="n42_jpu9"/>
+    <component id="n36_10bim" name="ground_4" src="jzk2m1q" fileName="dele_groundItem.xml" xy="390,1019" group="n42_jpu9"/>
+    <component id="n37_10bim" name="ground_5" src="jzk2m1q" fileName="dele_groundItem.xml" xy="271,952" group="n42_jpu9"/>
+    <component id="n32_10bim" name="ground_6" src="jzk2m1q" fileName="dele_groundItem.xml" xy="151,885" group="n42_jpu9"/>
+    <component id="n34_10bim" name="ground_101" src="jzk2m1q" fileName="dele_groundItem.xml" xy="503,951" group="n42_jpu9"/>
+    <component id="n35_10bim" name="ground_102" src="jzk2m1q" fileName="dele_groundItem.xml" xy="385,883" group="n42_jpu9"/>
+    <component id="n31_10bim" name="ground_103" src="jzk2m1q" fileName="dele_groundItem.xml" xy="264,816" group="n42_jpu9"/>
+    <group id="n42_jpu9" name="n42" xy="34,816" size="681,428"/>
+  </displayList>
+</component>

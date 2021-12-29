@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" mask="n1_t3uu">
+  <displayList>
+    <graph id="n1_t3uu" name="n1" xy="0,0" size="100,100" type="eclipse" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n0_t3uu" name="icon" xy="0,0" size="100,100" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

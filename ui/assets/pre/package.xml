@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="70twbacd">
+  <resources>
+    <component id="adgs0" name="UI_pre.xml" path="/" exported="true"/>
+    <component id="adgs1" name="ProgressBar1.xml" path="/"/>
+    <image id="n1oj6" name="bar.png" path="/" scale="tile"/>
+    <component id="m2rkb" name="loadUI.xml" path="/"/>
+    <image id="z34rd" name="loading.png" path="/"/>
+    <image id="z34re" name="西瓜.png" path="/"/>
+    <image id="z34rf" name="sda.png" path="/"/>
+    <image id="c0tah" name="hz.png" path="/"/>
+  </resources>
+  <publish name="pre" genCode="true"/>
+</packageDescription>

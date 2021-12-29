@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h0pxd7al">
+  <resources>
+    <component id="fw1qb" name="UI_home.xml" path="/" exported="true"/>
+    <image id="10bim1l" name="fz.png" path="/images/" atlas="1"/>
+    <image id="10bim1m" name="land_black.png" path="/images/" exported="true"/>
+    <image id="10bim1n" name="land_lock.png" path="/images/" exported="true"/>
+    <image id="10bim1o" name="land.png" path="/images/" exported="true"/>
+    <component id="jzk2m1q" name="dele_groundItem.xml" path="/"/>
+    <image id="jzk2m1s" name="land_black_lock.png" path="/images/" exported="true"/>
+    <component id="p59cm2t" name="dele_ground.xml" path="/"/>
+    <image id="g19hm4d" name="组 12.png" path="/"/>
+    <image id="g19hm4e" name="组 11.png" path="/"/>
+    <image id="g19hm4f" name="背景效果.png" path="/"/>
+    <image id="rru0m4n" name="bg_mini.png" path="/"/>
+  </resources>
+  <publish name="home" genCode="true"/>
+</packageDescription>
