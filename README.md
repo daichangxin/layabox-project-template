@@ -10,9 +10,15 @@ TODO:
 -   github 自动部署
 -   整理 scripts/webpack-res-version.js
 
-##
+## 介绍
 
-技术栈：tsc 编译，webpack 打包，HtmlWebpackPlugin 插件生成 html。
+1. 技术栈
+
+tsc 编译(无 ts-loader)，webpack 打包，HtmlWebpackPlugin 插件生成 html。
+
+2. 手机版本支持
+
+Android5.1 及以上 & ios9.0 及以上。
 
 ## 使用说明
 
