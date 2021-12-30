@@ -1,4 +1,4 @@
-import { AsyncPanel } from '@inno/game-sdk';
+import { AsyncPanel } from '@pawgame/laya-game-sdk';
 
 export class LoadingPanel extends AsyncPanel {
     private _canClose: boolean;

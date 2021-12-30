@@ -13,11 +13,11 @@ const isProd = process.env.PROJECT_BUILD_ENV !== 'development';
 
 // 允许babel转换的目录和package
 const allowBabelFiles = [
-    resolve('node_modules/@inno'),
     resolve('node_modules/@pawgame'),
     resolve('node_modules/@shm-open'),
     resolve('node_modules/proxy-polyfill'),
     resolve('node_modules/pako'),
+    resolve('bin/ext/fairygui.js'),
     resolve('src'),
 ];
 
@@ -52,7 +52,12 @@ const webpackConfig = {
         hot: true, // default: true
     },
     entry: {
-        libs: [resolve('node_modules/proxy-polyfill'), 'whatwg-fetch', resolve('node_modules/@inno/game-sdk')],
+        libs: [
+            resolve('node_modules/proxy-polyfill'),
+            'whatwg-fetch',
+            resolve('node_modules/@pawgame/js-layabox-core'),
+            resolve('bin/ext/fairygui.js'),
+        ],
         bundle: {
             import: [resolve('tsc_outputs/src/index.js')],
             dependOn: ['libs'],

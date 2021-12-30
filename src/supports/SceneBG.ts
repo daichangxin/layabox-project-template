@@ -1,4 +1,4 @@
-import { FairyLoader, RES, Resize, UILayer } from '@inno/game-sdk';
+import { FairyLoader, RES, Resize, UILayer } from '@pawgame/laya-game-sdk';
 import { getVersionURL } from './getVersionURL';
 
 let bg: FairyLoader;

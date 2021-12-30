@@ -1,5 +1,5 @@
-import { App, Console, EventConsts, FairyRes, Scene, SoundManager, View } from '@inno/game-sdk';
 import { GFacade, Singleton } from '@pawgame/game-library';
+import { App, EventConsts, FairyRes, Scene, SoundManager, View } from '@pawgame/laya-game-sdk';
 import { loadConfig } from '../../supports/Config';
 import { PathDefine } from '../../supports/PathDefine';
 import { HomeScene } from '../home/HomeScene';
@@ -41,10 +41,10 @@ export class GameOperate {
             await FairyRes.getPackageRes('res/ui/home').loadAll();
             this._pre.update(100, '小喵正在来临的路上');
         } catch (e) {
-            Console.log('sys', 'loadResource.fail, retry..');
+            console.log('loadResource.fail, retry..');
             await this.loadResource();
         }
-        Console.log('test', 'load resource complete');
+        console.log('load resource complete');
     }
 
     private initPanels() {
@@ -64,7 +64,7 @@ export class GameOperate {
     private enterGame() {
         // isLogin
         if (!this._isBasicResReady) {
-            Console.log('test', 'enterGame.return: basic res not ready');
+            console.log('enterGame.return: basic res not ready');
             return;
         }
         View.togglePanel(PrePanel, 0);

@@ -1,5 +1,5 @@
-import { AsyncPanel, View } from '@inno/game-sdk';
 import { Handler } from '@pawgame/game-library';
+import { AsyncPanel, View } from '@pawgame/laya-game-sdk';
 import { LoadingPanel } from '../modules/loading/LoadingPanel';
 import { showAlert } from './Alert';
 

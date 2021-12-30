@@ -1,4 +1,4 @@
-import { RES } from '@inno/game-sdk';
+import { RES } from '@pawgame/laya-game-sdk';
 import pako from 'pako';
 import { getVersionURL } from './getVersionURL';
 

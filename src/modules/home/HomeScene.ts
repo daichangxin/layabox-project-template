@@ -1,4 +1,4 @@
-import { AsyncScene, SoundManager } from '@inno/game-sdk';
+import { AsyncScene, SoundManager } from '@pawgame/laya-game-sdk';
 import { PathDefine } from '../../supports/PathDefine';
 import { SceneBG } from '../../supports/SceneBG';
 import { SceneDefines } from '../game/SceneDefines';

@@ -1,5 +1,5 @@
-import { AsyncPanel, RES, Resize } from '@inno/game-sdk';
 import { View } from '@pawgame/game-library';
+import { AsyncPanel, RES, Resize } from '@pawgame/laya-game-sdk';
 import { showSimpleAlert } from '../../supports/Alert';
 import { showToast } from '../../supports/Toast';
 import { getVersionURL } from '../../supports/getVersionURL';

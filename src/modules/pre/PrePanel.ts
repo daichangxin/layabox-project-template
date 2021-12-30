@@ -1,4 +1,4 @@
-import { AsyncPanel, Resize } from '@inno/game-sdk';
+import { AsyncPanel, Resize } from '@pawgame/laya-game-sdk';
 import { SceneBG } from '../../supports/SceneBG';
 
 export class PrePanel extends AsyncPanel {

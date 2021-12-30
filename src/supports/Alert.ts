@@ -1,5 +1,5 @@
-import { BaseAlert, UIEffect } from '@inno/game-sdk';
 import { Handler } from '@pawgame/game-library';
+import { BaseAlert, UIEffect } from '@pawgame/laya-game-sdk';
 
 class Alert extends BaseAlert {
     constructor() {

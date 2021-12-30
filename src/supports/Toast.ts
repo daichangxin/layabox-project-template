@@ -1,4 +1,4 @@
-import { BaseToastItem, Toast } from '@inno/game-sdk';
+import { BaseToastItem, Toast } from '@pawgame/laya-game-sdk';
 
 class ToastItem extends BaseToastItem {
     private txt_des: fgui.GTextField;
