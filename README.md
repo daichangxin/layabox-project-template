@@ -6,8 +6,6 @@ TODO:
 
 -   微信小游戏打包
 -   低端机支持
--   H5 测试项目发布
--   github 自动部署
 -   整理 scripts/webpack-res-version.js
 
 ## 介绍
@@ -15,6 +13,8 @@ TODO:
 1. 技术栈
 
 tsc 编译(无 ts-loader)，webpack 打包，HtmlWebpackPlugin 插件生成 html。
+
+预览: https://layabox-project-template.pawgame.com/
 
 2. 手机版本支持
 
