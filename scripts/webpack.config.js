@@ -18,7 +18,7 @@ const allowBabelFiles = [
     resolve('node_modules/proxy-polyfill'),
     resolve('node_modules/pako'),
     resolve('bin/ext/fairygui.js'),
-    resolve('src'),
+    resolve('tsc_outputs/src'),
 ];
 
 // 压缩
