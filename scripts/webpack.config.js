@@ -47,6 +47,7 @@ const webpackConfig = {
             directory: resolve('bin'),
         },
         compress: true,
+        host: 'local-ipv4',
         port: 9000,
         open: true,
         hot: true, // default: true
