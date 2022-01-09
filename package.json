@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@pawgame/game-library": "^2.1.0",
-    "@pawgame/js-layabox-core": "^1.4.0",
     "@pawgame/laya-game-sdk": "^0.0.4",
+    "@pawgame/layabox-core": "^1.0.1",
     "@shm-open/utilities": "^1.13.1",
     "dayjs": "1.10.7",
     "pako": "2.0.4"

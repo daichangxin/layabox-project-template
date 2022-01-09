@@ -56,7 +56,7 @@ const webpackConfig = {
         libs: [
             resolve('node_modules/proxy-polyfill'),
             'whatwg-fetch',
-            resolve('node_modules/@pawgame/js-layabox-core'),
+            resolve('node_modules/@pawgame/layabox-core'),
             resolve('bin/ext/fairygui.js'),
         ],
         bundle: {
