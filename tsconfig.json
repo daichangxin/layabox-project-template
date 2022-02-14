@@ -12,5 +12,5 @@
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "include": ["src", "libs", "node_modules/**/*.d.ts"]
+  "include": ["src", "libs"]
 }
