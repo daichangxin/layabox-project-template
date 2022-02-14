@@ -3,6 +3,7 @@ const os = require('os');
 const TerserPlugin = require('terser-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackResVersionPlugin = require('./webpack-res-version');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 function resolve(name) {
     return path.join(__dirname, '..', name);
@@ -96,6 +97,19 @@ const webpackConfig = {
                 entry_path: resolve('bin/res'),
                 output_path: resolve('outputs/res'),
                 outputs_path: resolve('outputs'),
+            }),
+        isProd &&
+            new BundleAnalyzerPlugin({
+                analyzerMode: 'server',
+                analyzerHost: '127.0.0.1',
+                analyzerPort: 8889,
+                reportFilename: 'report.html',
+                defaultSizes: 'parsed',
+                openAnalyzer: true,
+                generateStatsFile: false,
+                statsFilename: 'stats.json',
+                statsOptions: null,
+                logLevel: 'info',
             }),
     ].filter(Boolean),
     optimization: {
