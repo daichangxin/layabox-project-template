@@ -8,6 +8,7 @@ module.exports = {
                 allowForLoopAfterthoughts: true,
             },
         ],
+        'no-bitwise': 0,
     },
     globals: {
         Laya: true,

@@ -1,4 +1,6 @@
 const path = require('path');
+const DotenvWebpackPlugin = require('dotenv-webpack');
+
 const base = require('./webpack.base.js').generate('development');
 
 const resolve = (name) => {
@@ -21,6 +23,7 @@ const config = {
         open: true,
         hot: true, // default: true
     },
+    plugins: [...base.plugins, new DotenvWebpackPlugin({ path: resolve('.env') })],
 };
 
 module.exports = config;

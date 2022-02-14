@@ -29,6 +29,8 @@
     "@shm-open/eslint-config-bundle": "1.7.4",
     "babel-loader": "8.2.3",
     "core-js": "^3.20.1",
+    "dotenv": "^16.0.0",
+    "dotenv-webpack": "^7.1.0",
     "html-webpack-plugin": "^5.5.0",
     "proxy-polyfill": "0.3.2",
     "regenerator-runtime": "0.13.9",

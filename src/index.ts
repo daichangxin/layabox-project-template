@@ -32,6 +32,8 @@ const startUp = () => {
         Laya.Handler.create(this, onVersionLoaded),
         Laya.ResourceVersion.FILENAME_VERSION,
     );
+
+    console.log('isProd:', ~~process.env.IS_PROD === 1);
 };
 
 startUp();
