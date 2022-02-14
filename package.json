@@ -7,6 +7,7 @@
     "clean": "rm -rf tsc_outputs && rm -rf outputs && rm -rf release",
     "tsc_build": "./node_modules/.bin/tsc",
     "dev": "npm run clean && npm run tsc_build && webpack serve --config scripts/webpack.dev.js & npm run tsc_build -- --w",
+    "build-qa": "npm run clean && npm run tsc_build && webpack --config scripts/webpack.qa.js",
     "build": "npm run clean && npm run tsc_build && webpack --config scripts/webpack.prod.js",
     "analyzer": "webpack --analyze --config ./scripts/webpack.analyzer.js",
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
