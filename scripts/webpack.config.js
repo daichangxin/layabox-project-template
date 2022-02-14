@@ -98,7 +98,7 @@ const webpackConfig = {
                 output_path: resolve('outputs/res'),
                 outputs_path: resolve('outputs'),
             }),
-        isProd &&
+        !isProd &&
             new BundleAnalyzerPlugin({
                 analyzerMode: 'server',
                 analyzerHost: '127.0.0.1',
