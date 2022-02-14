@@ -9,7 +9,7 @@ const config = {
     plugins: [
         ...base.plugins,
         new BundleAnalyzerPlugin({
-            openAnalyzer: false,
+            openAnalyzer: true,
         }),
     ],
 };

@@ -8,7 +8,7 @@
     "tsc_build": "./node_modules/.bin/tsc",
     "dev": "npm run clean && npm run tsc_build && webpack serve --config scripts/webpack.dev.js & npm run tsc_build -- --w",
     "build": "npm run clean && npm run tsc_build && webpack --config scripts/webpack.prod.js",
-    "analyzer": "webpack --analyze --config ./config/webpack.analyzer.js",
+    "analyzer": "webpack --analyze --config ./scripts/webpack.analyzer.js",
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "test": "echo 'done'"
   },
