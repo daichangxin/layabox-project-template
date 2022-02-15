@@ -38,3 +38,9 @@ npm run dev
 ```
 npm run build
 ```
+
+4. 打包 manifest 版本
+
+```
+npm run build-manifest
+```
