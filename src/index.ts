@@ -1,3 +1,4 @@
+import { config } from './config';
 import { GameOperate } from './modules/game/GameOperate';
 
 const onVersionLoaded = () => {
@@ -33,7 +34,7 @@ const startUp = () => {
         Laya.ResourceVersion.FILENAME_VERSION,
     );
 
-    console.log('isProd:', ~~process.env.IS_PROD === 1);
+    console.log('isProd:', config.IS_PROD);
 };
 
 startUp();

@@ -1,7 +1,7 @@
 const path = require('path');
 const DotenvWebpackPlugin = require('dotenv-webpack');
 
-const base = require('./webpack.base.js').generate('development');
+const base = require('./webpack.manifest.base.js').generate('development');
 
 const resolve = (name) => {
     return path.join(__dirname, '..', name);
